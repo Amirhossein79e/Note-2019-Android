@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.SearchActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@drawable/card_background"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="16dp"
+            app:searchIcon="@drawable/icon_search"
+            android:backgroundTint="@color/white"
+            android:id="@+id/search_view"
+            app:queryHint="@string/search"
+            app:defaultQueryHint="@string/search"
+            android:foregroundTint="@color/white"
+            app:submitBackground="@color/white">
+        </androidx.appcompat.widget.SearchView>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:id="@+id/recycler_search">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

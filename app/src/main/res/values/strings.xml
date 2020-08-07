@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Note</string>
+    <string name="note">نوت</string>
+    <string name="note_body">متن یادداشت :</string>
+    <string name="note_title">عنوان یادداشت :</string>
+    <string name="exit">خروج</string>
+    <string name="areYouWantExit">آیا میخواهید از نوت خارج شوید؟</string>
+    <string name="yes">خیر</string>
+    <string name="no">بله</string>
+    <string name="speak">صحبت کنید</string>
+    <string name="saved">دخیره شد</string>
+    <string name="updated">تغییرات اعمال شد</string>
+    <string name="deleted">پاک شد</string>
+    <string name="developer">توسعه دهنده : امیرحسین پورعمادی</string>
+    <string name="email">ایمیل : amirhossein79.e@gmail.com</string>
+    <string name="appName">نوت</string>
+    <string name="empty">هیچ یادداشتی وجود ندارد</string>
+    <string name="title">Title</string>
+    <string name="splash">نوت</string>
+    <string name="title2">عنوان</string>
+    <string name="search">جستجو</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="حذف"
+        android:icon="@drawable/icon_delete_new"
+        android:id="@+id/delete"
+        app:showAsAction="always">
+    </item>
+
+
+
+    <item android:title="به روز کردن"
+        android:icon="@drawable/icon_update"
+        android:id="@+id/update"
+        app:showAsAction="always">
+    </item>
+
+
+
+</menu>
